@@ -1,0 +1,858 @@
+/* Media Query */
+/*
+    @media (max-width: 575px) (XS)
+    
+    @media (min-width: 576px) and (max-width: 767px) (SM)
+    
+    @media (min-width: 768px) and (max-width: 991px) (Md)
+
+    @media (min-width: 992px) and (max-width: 1199px) (LG)
+
+    @media (min-width: 1200px) (XL)
+*/
+
+
+
+/************* Start xs screen *************/
+
+
+
+@media (max-width: 575px) {
+    
+    
+/* Start Upper Bar */
+    .upper-bar .info {margin: 10px 0 0; padding-bottom: 0; font-size: 13px}
+    
+    .upper-bar .info:nth-of-type(1) {margin-top: 5px}
+    
+    .upper-bar .info:nth-of-type(3) {margin-bottom: 5px}
+    
+    .upper-bar a {border: none; padding-left: 0;}
+    
+    .upper-bar a:hover { color: white}
+/* End Upper Bar */    
+    
+    
+    
+/* Start NavBar Links  */   
+    .navbar {padding-top: 10px; padding-bottom: 10px;}   
+    
+    .navbar .navbar-brand {font-size: 29px}
+    
+    .navbar-toggler {font-size: 19px; padding: 2px 5px}
+    
+    .navbar-light .navbar-nav .nav-link {font-size: 14px;}
+/* End NavBar Links  */        
+    
+
+    
+/* Start section features */
+    
+    .our-features i {width: 53px; height: 53px; line-height: 53px; margin-bottom: 10px; font-size: 24px}
+    
+    .our-features h4 {font-size: 20px}
+
+    .our-features p {font-size: 0.9rem}
+/* End section features */    
+    
+    
+    
+/* Start section overview */
+    .overview {padding-top: 60px; padding-bottom: 60px}
+    
+    .overview .h1 {font-size: 1.9rem; font-weight: 600;} 
+    
+    .overview p {width: 100%; font-size: 0.9rem; margin-bottom: 23px}
+    
+    .overview span {font-size: 15px; margin-bottom: 16px}
+    
+    .overview button {padding: 5px 10px; font-weight: 500; font-size: 12px;}
+/* End section overview */
+    
+ 
+    
+/* Start section featured-work */
+    
+    .featured-work {padding-top: 60px; padding-bottom: 60px}
+    
+    .featured-work .h1 {font-size: 1.9rem; font-weight: 600;} 
+    
+    .featured-work p {width: 100%; font-size: 0.9rem; margin-bottom: 23px}  
+    
+    .featured-work button {margin-left: 45px; margin-right: 45px; font-size: 13px; font-weight: 500}
+    
+    
+    .featured-work .shuffle-images {margin-top: 30px}
+/* End section featured-work */    
+    
+    
+    
+/* Start section latest-post */    
+    .latest-post {padding-top: 60px}
+    
+    .latest-post h2 {font-size: 34px; font-weight: 500}
+    
+    .latest-post p {width: 100%; font-size: 0.9rem; margin-bottom: 23px}
+    
+    
+    .latest-post .infoo {width: 85%; margin: 20px auto 30px; }
+    
+    .latest-post .card-title  {margin-bottom: 0.8rem; font-size: 17px;}
+    
+    .latest-post .card-body .text-muted {font-size: 0.73rem}
+    
+    .latest-post .card p {margin-top: 15px; font-size: 14px; margin-bottom: 16px;}
+    
+    .latest-post .card a {font-weight: 500; border: 1px solid #ec1c23; font-size: 0.9rem; padding: 2px 7px; background-color: #ec1c23; color: #fff;}
+/* End section latest-post */  
+    
+    
+    
+/* Start section testimonial */
+    
+    .testimonial {max-height: 500px; min-height: 500px;}
+    
+    
+    .testimonial h3 {font-size: 1.2rem; max-height: 500px;}
+    
+    
+    .testimonial .carousel {min-height: 500px; max-height: 500px;}
+    
+    
+    .testimonial .carousel-caption {bottom: 96px;}
+    
+    
+    .testimonial .carousel-caption span {font-size: 15px;}
+    
+    
+    .testimonial .carousel-caption p {width: 90%; font-size: 14px;}
+    
+    .testimonial .carousel-item {min-height: 500px}
+    
+    .testimonial .change-bg {width: 45px; height: 45px;}
+    
+    .testimonial .carousel-inner {min-height: 500px}
+    .testimonial .carousel-control-next-icon, .carousel-control-prev-icon {width: 20px; height: 45px;}
+    
+    
+    .testimonial .carousel-indicators {display: none}
+/* End section testimonial */    
+    
+    
+
+/* Start Section pricing table */ 
+    .pricing-table {padding: 60px 0;}
+    
+    .pricing-table h2 {font-size: 34px; font-weight: 450}
+    
+    .pricing-table p {width: 100%; font-size: 0.9rem; margin-bottom: 40px}
+    
+    .pricing-table .Corporater {top: 0}
+    
+    .pricing-table .card{margin-left: 40px; margin-right: 40px}
+    
+    .pricing-table h5 {font-size: 22px}
+    
+    .pricing-table .text-muted {font-size: 15px}
+    
+    .pricing-table .card h3 {font-size: 1.6rem}
+    
+    .pricing-table .card ul {font-size: 14px}
+    
+    .pricing-table .card .btn {font-size: 13px; padding-right: 13px; padding-left: 13px;}
+/* End Section pricing table */     
+    
+    
+
+/* Start Section why choose us */  
+    .contact-us { text-align: center !important;}   
+    
+    .choose-us img {display: none}
+    
+    .viewText {margin-top: 50px; margin-left: 20px; color: #fff;}
+    
+    .viewText h2 {font-weight: 600; font-size: 24px;}   
+    
+    .viewText p { margin-top: 20px; width: 93%; line-height: 1.7; font-size: 13px;}
+    
+    .viewText .btn {font-size: 11px; padding-right: 7px; padding-left: 7px;}
+/* End Section why choose us */      
+    
+    
+
+/* Start Section Statistics */    
+    .statistics {padding: 70px 0}
+    
+    .statistics i {font-size: 3.2rem}
+    
+    .statistics h2 {font-size: 1.9rem}
+    
+    .statistics p {font-size: 1px}
+/* End Section Statistics */        
+    
+    
+    
+/* Start Section contact-us */     
+    .contact-us p {font-size: 20px}
+    
+    .contact-us .btn {font-size: 12px;}
+/* End Section contact-us */     
+    
+ 
+    
+/* Start Section footer */   
+    
+    .footer {padding: 70px 0}
+    
+    .footer .info .navbar-brand {font-size: 1.7rem;}  
+    
+    .footer .info p {font-size: 13px}
+    
+    .footer i {font-size: 14px}
+    
+    .footer .info .readMore {font-size: 14px}
+    
+    
+    .helpful h3 {margin-bottom: 28px; font-size: 22px;}
+    
+    .helpful div {margin-bottom: 20px; font-size: 13px}
+    
+    .helpful div:last-of-type {margin-bottom: 0}
+    
+    .helpful i {top: 0; font-size: 13px}
+    
+    
+    .contact h3 {font-size: 22px; margin-top: 0}
+    
+    .contact ul {font-size: 13px}
+/* End Section footer */     
+    
+    
+    
+/* Start Section copyright */   
+    
+    .copyright div {font-size: 14px}  
+    
+    .copyright ul {margin-top: 20px}
+    
+    .copyright ul li {margin-right:20px; margin-left: 0}
+/* End Section copyright */    
+    
+    
+
+}
+   
+/************* End xs screen *************/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/************* Start SM screen *************/
+
+
+
+@media (min-width: 576px) {
+    
+    
+    .pricing-table .Corporater {top: 0}
+    
+    
+    
+    .contact-us { text-align: center !important;}
+    
+
+
+    .copyright ul {margin-top: 20px}
+}
+   
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    
+    
+/* Start Upper Bar */ 
+    
+    .upper-bar {text-align: center}
+    
+    .upper-bar .info {font-size: 15px}
+    
+    .upper-bar .info:first-of-type {margin-bottom: 5px; margin-top: 5px; }
+
+    .upper-bar .info:nth-of-type(2) {padding-left: 60px}
+    
+    .upper-bar .info:nth-of-type(3) {padding-left: 37px}
+    
+    .upper-bar .info:not(:first-of-type) {margin-top: 2px}
+    
+    .upper-bar a {border: none; padding-right: 0;}
+    
+    .upper-bar a:hover { color: white}
+/* End Upper Bar */ 
+    
+    
+    
+/* Start NavBar Links  */   
+    .navbar {padding-top: 10px; padding-bottom: 10px;}   
+    
+    .navbar .navbar-brand {font-size: 31px}
+    
+    
+    .navbar-toggler {font-size: 20px; padding: 3px 6px;}
+    
+    
+    .navbar-light .navbar-nav .nav-link {font-size: 15px;}    
+/* End NavBar Links  */   
+    
+    
+    
+/* Start Slider */    
+    
+    .slider .carousel-inner {justify-content: center}
+    
+    .slider .carousel-inner h1 {left: auto; line-height: 1.7; font-size: 25px; text-align: center}
+    
+    .slider .carousel-inner span {margin-left: 5px; padding-right: 25px; padding-left: 5px; padding-bottom: 3px;}
+
+    .carousel-indicators {margin-bottom: 4px}
+    
+    .carousel-indicators li {width: 18px; height: 18px}
+/* End Slider */
+    
+    
+    
+/* Start section features */
+    .our-features i {width: 58px; height: 58px; line-height: 58px; margin-bottom: 15px; font-size: 25px}
+    
+    .our-features h4 {font-size: 21px}
+    
+    .our-features p {font-size: 0.92rem}
+/* End section features */ 
+       
+          
+    
+/* Start section overview */
+    .overview {padding-top: 60px; padding-bottom: 60px}
+    
+    .overview .h1 {font-size: 33px; font-weight: 600;} 
+    
+    .overview p {width: 100%; font-size: 16px; margin-bottom: 26px}
+    
+    .overview span {font-size: 16px; margin-bottom: 16px}
+    
+    .overview button {padding: 5px 14px; font-weight: 500; font-size: 14px;}
+/* End section overview */
+    
+    
+/* Start section featured-work */
+    
+    .featured-work {padding-top: 60px; padding-bottom: 60px}
+    
+    .featured-work .h1 {font-size: 33px; font-weight: 600;} 
+    
+    .featured-work p {width: 100%; font-size: 16px; margin-bottom: 23px}  
+    
+    .featured-work button {margin-left: 45px; margin-right: 45px; font-size: 14px; font-weight: 500}
+    
+    
+    .featured-work .shuffle-images {margin-top: 30px}
+/* End section featured-work */    
+    
+    
+    
+/* Start section latest-post */    
+    .latest-post {padding-top: 60px}
+    
+    .latest-post h2 {font-size: 36px; font-weight: 500}
+    
+    .latest-post p {width: 100%; font-size: 15px; margin-bottom: 23px}
+    
+    
+    .latest-post .infoo {width: 75%; margin: 20px auto 30px; }
+    
+    .latest-post .card-title  {margin-bottom: 0.8rem; font-size: 18px;}
+    
+    .latest-post .card-body .text-muted {font-size: 0.8rem}
+    
+    .latest-post .card p {margin-top: 15px; font-size: 15px; margin-bottom: 15px;}
+    
+    .latest-post .card a {font-weight: 500; border: 1px solid #ec1c23; font-size: 0.9rem; padding: 2px 7px; background-color: #ec1c23; color: #fff;}
+/* End section latest-post */  
+    
+    
+    
+/* Start section testimonial */
+    
+    .testimonial {max-height: 500px; min-height: 500px;}
+    
+    
+    .testimonial h3 {font-size: 1.3rem; max-height: 500px;}
+    
+    
+    .testimonial .carousel {min-height: 500px; max-height: 500px;}
+    
+    
+    .testimonial .carousel-caption {bottom: 96px;}
+    
+    
+    .testimonial .carousel-caption span {font-size: 16px;}
+    
+    
+    .testimonial .carousel-caption p {width: 90%; font-size: 15px;}
+    
+    .testimonial .carousel-item {min-height: 500px}
+    
+    .testimonial .change-bg {width: 50px; height: 50px;}
+    
+    .testimonial .carousel-inner {min-height: 500px}
+    .testimonial .carousel-control-next-icon, .carousel-control-prev-icon {width: 24px; height: 50px;}
+    
+    
+    .testimonial .carousel-indicators {display: none}
+/* End section testimonial */    
+    
+    
+
+/* Start Section pricing table */ 
+    .pricing-table {padding: 60px 0;}
+    
+    .pricing-table h2 {font-size: 36px; font-weight: 500}
+    
+    .pricing-table p {width: 100%; font-size: 15px; margin-bottom: 50px}
+    
+    .pricing-table .card{margin-left: 70px; margin-right: 70px}
+    
+    .pricing-table h5 {font-size: 24px}
+    
+    .pricing-table .text-muted {font-size: 16px}
+    
+    .pricing-table .card ul {font-size: 16px}
+    
+    .pricing-table .card .btn {font-size: 15px; padding-right: 15px; padding-left: 15px;}
+/* End Section pricing table */     
+    
+    
+
+/* Start Section why choose us */  
+    
+    .choose-us img {display: none}
+    
+    .viewText {margin-top: 50px; margin-left: 20px; color: #fff;}
+    
+    .viewText h2 {font-size: 26px;}   
+    
+    .viewText p { margin-top: 20px; width: 93%; line-height: 1.7; font-size: 14px;}
+    
+    .viewText .btn {font-size: 13px; padding-right: 9px; padding-left: 9px;}
+/* End Section why choose us */      
+    
+    
+
+/* Start Section Statistics */    
+    .statistics i {font-size: 3.2rem}
+    
+    .statistics h2 {font-size: 1.8rem}
+    
+    .statistics p {font-size: 16px}
+/* End Section Statistics */        
+    
+    
+    
+/* Start Section contact-us */     
+    
+    .contact-us {padding: 70px 0}
+    
+    .contact-us { text-align: center !important;} 
+    
+    .contact-us p {font-size: 23px}
+    
+    .contact-us .btn {font-size: 14px;}
+/* End Section contact-us */     
+    
+ 
+    
+/* Start Section footer */  
+    
+    .footer {padding: 70px 0}
+    
+    .footer .info .navbar-brand {font-size: 1.9rem;}  
+    
+    .footer .info p {font-size: 14px}
+    
+    .footer i {font-size: 15px}
+    
+    .footer .info .readMore {font-size: 15px}
+    
+    
+    .helpful h3 {margin-bottom: 28px; font-size: 24px;}
+    
+    .helpful i {font-size: 14px}
+    
+    .helpful div:last-of-type {margin-bottom: 0}
+    
+    
+    .contact h3 {font-size: 24px;}
+    
+    .contact ul {font-size: 14px}
+/* End Section footer */     
+    
+    
+    
+/* Start Section copyright */   
+    
+    .copyright div {font-size: 14px}  
+    
+    .copyright ul {margin-top: 20px}
+    
+    .copyright ul li {margin-left: 0; margin-right:20px}
+/* End Section copyright */    
+    
+}
+
+
+
+/************* End SM screen *************/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/************* Start Md screen *************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* Start Upper Bar */ 
+    .upper-bar a {border: none; padding-right: 0;}
+/* End Upper Bar */ 
+    
+    
+    
+/* Start NavBar Links  */   
+    .navbar {padding-top: 10px; padding-bottom: 10px;}   
+    
+    .navbar .navbar-brand {font-size: 33px}
+    
+    
+    .navbar-toggler {font-size: 22px; padding: 3px 5px;}
+    
+    
+    .navbar-light .navbar-nav .nav-link {font-size: 16px;}    
+/* End NavBar Links  */   
+    
+
+    
+/* Start Slider */  
+    
+    .slider .carousel-inner {justify-content: center}
+    
+    .slider .carousel-inner h1 {left: auto; line-height: 1.6; font-size: 33px; text-align: center}
+    
+    .slider .carousel-inner span {margin-left: 5px; padding-right: 30px; padding-left: 5px; padding-bottom: 4px;}
+
+    .carousel-indicators {margin-bottom: 5px}
+    
+    .carousel-indicators li {width: 20px; height: 20px}
+/* End Slider */    
+    
+
+    
+    
+/* Start section features */
+    
+    .our-features i {width: 60px; height: 60px; line-height: 60px; margin-bottom: 15px; font-size: 27px}
+    
+    .our-features h4 {font-size: 23px}
+    
+    .our-features p {font-size: 1rem}
+/* End section features */ 
+       
+          
+    
+/* Start section overview */
+    .overview {padding-top: 60px; padding-bottom: 60px}
+    
+    .overview .h1 {font-size: 33px;} 
+    
+    .overview p {width: 90%; font-size: 17px; margin-bottom: 26px}
+    
+    .overview span {font-size: 17px; margin-bottom: 16px}
+    
+    .overview button {padding: 4px 15px; font-weight: 500; font-size: 15px;}
+/* End section overview */
+    
+    
+/* Start section featured-work */
+    
+    .featured-work {padding-top: 60px; padding-bottom: 60px}
+    
+    .featured-work .h1 {font-size: 33px;} 
+    
+    .featured-work p {width: 90%; font-size: 17px; margin-bottom: 28px}  
+    
+    .featured-work button {font-size: 16px; font-weight: 500}
+    
+    
+    .featured-work .shuffle-images {margin-top: 30px}
+/* End section featured-work */    
+    
+    
+    
+/* Start section latest-post */    
+    
+    .latest-post h2 {font-size: 36px; font-weight: 600}
+    
+    .latest-post p {width: 90%; font-size: 16px; margin-bottom: 23px}
+    
+    
+    .latest-post .card-title  {margin-bottom: 0.8rem; font-size: 18px;}
+    
+    .latest-post .card-body .text-muted {font-size: 0.8rem}
+    
+    .latest-post .card p {margin-top: 15px; font-size: 15px; margin-bottom: 15px;}
+    
+    .latest-post .card a {font-weight: 500; border: 1px solid #ec1c23; font-size: 0.9rem; padding: 2px 7px; background-color: #ec1c23; color: #fff;}
+/* End section latest-post */  
+    
+    
+    
+/* Start section testimonial */
+    
+    .testimonial {max-height: 500px; min-height: 500px;}
+    
+    
+    .testimonial h3 {font-size: 1.4rem; max-height: 500px;}
+    
+    
+    .testimonial .carousel {min-height: 500px; max-height: 500px;}
+    
+    
+    .testimonial .carousel-caption {bottom: 96px;}
+    
+    
+    .testimonial .carousel-caption span {font-size: 16px;}
+    
+    
+    .testimonial .carousel-caption p {width: 90%; font-size: 15px;}
+    
+    .testimonial .carousel-item {min-height: 500px}
+    
+    .testimonial .change-bg {width: 50px; height: 50px;}
+    
+    .testimonial .carousel-inner {min-height: 500px}
+    .testimonial .carousel-control-next-icon, .carousel-control-prev-icon {width: 24px; height: 50px;}
+    
+    
+    .testimonial .carousel-indicators {display: none}
+/* End section testimonial */    
+    
+    
+
+/* Start Section pricing table */ 
+    .pricing-table {padding: 60px 0;}
+    
+    .pricing-table h2 {font-size: 34px;}
+    
+    .pricing-table p {width: 90%; margin-bottom: 50px}
+    
+    .pricing-table .card {margin-left: 180px}
+        
+    .pricing-table h5 {font-size: 25px}
+    
+    .pricing-table .card h3 {font-size: 1.96rem}
+    
+    .pricing-table .text-muted {font-size: 17px}
+        
+    .pricing-table .card ul {font-size: 17px}
+    
+    .pricing-table .card .btn {font-size: 17px; padding-right: 18px; padding-left: 18px;}
+/* End Section pricing table */     
+    
+    
+
+/* Start Section why choose us */  
+    .viewText {margin-top: 50px; margin-left: 20px; color: #fff;}
+    
+    .choose-us img {height: auto}
+        
+    .viewText h2 {font-size: 28px;}   
+    
+    .viewText p { margin-top: 20px; width: 96%; line-height: 1.7; font-size: 16px;}
+    
+    .viewText .btn {font-size: 15px; padding-right: 9px; padding-left: 9px;}
+/* End Section why choose us */      
+    
+    
+
+/* Start Section Statistics */    
+    .statistics i {font-size: 3.5rem}
+    
+    .statistics h2 {font-size: 2rem}
+    
+    .statistics p {font-size: 18px}
+/* End Section Statistics */        
+    
+    
+    
+/* Start Section contact-us */     
+    
+    .contact-us {padding: 70px 0}
+    
+    .contact-us { text-align: center !important;} 
+    
+    .contact-us p {font-size: 25px; margin-bottom: 0;}
+    
+    .contact-us .btn {font-size: 16px;}
+/* End Section contact-us */     
+    
+ 
+    
+/* Start Section footer */  
+    
+    .footer {padding: 70px 0}
+    
+    .footer .info .navbar-brand {font-size: 2.2rem;}  
+    
+    .footer .info p {font-size: 16px}
+    
+    .footer i {font-size: 16px}
+    
+    .footer .info .readMore {font-size: 16px}
+    
+    
+    .helpful h3 {margin-bottom: 30px; font-size: 26px;}
+    
+    .helpful div {margin-bottom: 14px; font-size: 16px}
+    
+    .helpful i {font-size: 15px}
+    
+    
+    .contact h3 {font-size: 26px; margin-bottom: 30px}
+    
+    .contact ul {font-size: 15px}
+/* End Section footer */     
+    
+    
+    
+/* Start Section copyright */   
+    
+    .copyright div {font-size: 15px}  
+    
+    .copyright ul {margin-top: 20px}
+
+/* End Section copyright */      
+
+
+    
+}
+   
+
+
+
+
+
+@media (min-width: 768px) {
+    
+    
+    
+    .copyright ul {margin-top: 0}
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* End Md screen */
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Start Lg screen */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    
+/* Start Slider */    
+    .slider .carousel-inner h1 {left: 60px; line-height: 1.6; font-size: 45px}
+    
+    .slider .carousel-inner span {margin-left: 5px; padding-right: 30px; padding-left: 5px; padding-bottom: 6px;}
+
+    .carousel-indicators {margin-bottom: 6px}
+    
+    .carousel-indicators li {width: 21px; height: 21px}
+/* End Slider */     
+    
+    
+/* Start section features */
+    
+    .our-features i {width: 65px; height: 65px; line-height: 65px; margin-bottom: 15px; font-size: 29px}
+    
+    .our-features h4 {font-size: 23px; font-weight: 640}
+    
+    .our-features p {font-size: 1rem}
+/* End section features */ 
+    
+    
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 992px)  {
+    
+    .upper-bar div:not(:nth-of-type(1)) {text-align: right}
+      
+    
+    
+    
+    .pricing-table .Corporater {position: relative; top: -15px}
+
+
+    .pricing-table .Corporater h3 {background-color: #ec1c23; color: #FFF;}
+
+
+    .pricing-table .Corporater .btn-primary {background-color: #08526d; border-color: #08526d;}
+    
+    
+    .copyright ul {margin-top: 0}
+}
+   
+/* End Lg screen */
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Start Xl screen */
+
+@media (min-width: 1200px) {
+    
+    .footer .col-xl {padding-left: 0 }
+    
+    
+    .footer .col-xl-6, .col-xl-3{padding-right: 0; padding-left: 0; max-width: 46%;} 
+    
+    .footer .info p {width: 96%;}
+    
+    
+    .copyright .col-md {padding-left: 0 !important}
+}
+   
+/* End Xl screen */
+
+
+
